@@ -42,5 +42,5 @@ streamlit run app1.py
 
 ## Dependencies
 
-- *streamlit*
-- *mesa*
+- `streamlit`
+- `mesa`
