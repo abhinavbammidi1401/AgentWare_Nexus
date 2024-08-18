@@ -4,7 +4,10 @@ This project implements a warehouse management system using a multiagent approac
 
 ## Project Structure
 
-![alt text](image.png)
+AgentWare_Nexus
+    - agents
+        -__init__.py
+        -inventory_agent.py
 
 ### - **agents**
 This directory contains the agent classes responsible for different tasks within the warehouse:
