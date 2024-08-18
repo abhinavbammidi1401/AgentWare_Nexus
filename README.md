@@ -21,7 +21,8 @@ warehouse_management/
 ├── requirements.txt
 └── README.md
 
-### **'agents\'**: This directory contains the agent classes responsible for different tasks within the warehouse:
+### 1. **'agents\'**
+This directory contains the agent classes responsible for different tasks within the warehouse:
 - 'InventoryAgent': Manages inventory levels and updates.
 - 'OrderProcessingAgent': Processes customer orders by checking inventory and coordinating with the transport agent.
 - 'TransportAgent': Simulates the transportation of items to the dispatch area.
