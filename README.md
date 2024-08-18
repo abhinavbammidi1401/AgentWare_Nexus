@@ -21,21 +21,21 @@ warehouse_management/
 ├── requirements.txt
 └── README.md
 
-### 1. **'agents\'**
+### **'agents\'**
 This directory contains the agent classes responsible for different tasks within the warehouse:
 - **'InventoryAgent'**: Manages inventory levels and updates.
 - **'OrderProcessingAgent'**: Processes customer orders by checking inventory and coordinating with the transport agent.
 - **'TransportAgent'**: Simulates the transportation of items to the dispatch area.
 - **'MaintenanceAgent'**: Monitors the warehouse environment and ensures operational stability.
 
-### 2. **'model\'**
+### **'model\'**
 Contains the model class that orchestrates the interactions between agents:
 - **'WarehouseModel'**: A Mesa model that instances of all agents and manages the overall simulation.
 
-### 3. **'app.py'**
+### **'app.py'**
 The Streamlit interface to interact with the multiagent system. This file allows users to process orders, monitor the environment, and check inventory status.
 
-### 4. **'requirements.txt'**
+### **'requirements.txt'**
 Lists all the Python dependencies required to run the project.
 
 ## Installation
@@ -55,3 +55,8 @@ pip install -r requirements.txt
 ```bash
 streamlit run app1.py
 ```
+
+## Dependencies
+
+- 'streamlit'
+- 'mesa'
