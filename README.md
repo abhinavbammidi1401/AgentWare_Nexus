@@ -37,3 +37,21 @@ The Streamlit interface to interact with the multiagent system. This file allows
 
 ### 4. **'requirements.txt'**
 Lists all the Python dependencies required to run the project.
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/abhinavbammidi1401/AgentWare_Nexus
+cd AgentWare_Nexus
+```
+
+2. Install the required Python packages:
+```bash
+pip install -r requirements.txt
+```
+
+3. Run the app:
+```bash
+streamlit run app1.py
+```
