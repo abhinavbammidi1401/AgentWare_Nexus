@@ -3,11 +3,7 @@
 This project implements a warehouse management system using a multiagent approach with the Mesa framework. The system simulates the interactions between different agents responsible for inventory management, order processing, and maintenance.
 
 ## Project Structure
-
-AgentWare_Nexus
-    - agents
-        -__init__.py
-        -inventory_agent.py
+We have our main directory - `AgentWare_Nexus`, under which we have two more directories - `agents`, and `model`. The `agents` directory contains these files - `__init__.py`, `inventory_agent.py`, `order_processing_agent.py`, `transport_agent.py`, and `maintenance_agent.py`. The `model` directory will contain an `__init__.py` file and the `warehouse_model.py` file which will bring together all the agents. The main directory will have the `app.py` file for the Streamlit interface and a `requirements.txt` file for all the dependencies.
 
 ### - **agents**
 This directory contains the agent classes responsible for different tasks within the warehouse:
