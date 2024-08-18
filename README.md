@@ -4,22 +4,7 @@ This project implements a warehouse management system using a multiagent approac
 
 ## Project Structure
 
-warehouse_management/
-│
-├── agents/
-│   ├── __init__.py
-│   ├── inventory_agent.py
-│   ├── order_processing_agent.py
-│   └── transport_agent.py
-│   └── maintenance_agent.py
-│
-├── model/
-│   ├── __init__.py
-│   └── warehouse_model.py
-│
-├── app.py
-├── requirements.txt
-└── README.md
+![alt text](image.png)
 
 ### - **agents**
 This directory contains the agent classes responsible for different tasks within the warehouse:
