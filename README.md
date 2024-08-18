@@ -32,10 +32,10 @@ This directory contains the agent classes responsible for different tasks within
 Contains the model class that orchestrates the interactions between agents:
 - **WarehouseModel**: A Mesa model that instances of all agents and manages the overall simulation.
 
-### **app.py**
+### - **app.py**
 The Streamlit interface to interact with the multiagent system. This file allows users to process orders, monitor the environment, and check inventory status.
 
-### **requirements.txt**
+### - **requirements.txt**
 Lists all the Python dependencies required to run the project.
 
 ## Installation
